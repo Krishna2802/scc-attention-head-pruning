@@ -1,0 +1,25 @@
+{
+  "torch": "2.11.0+cu128",
+  "transformers": "5.16.1",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_count": 4,
+  "torch_threads": 2,
+  "python": "3.13.15",
+  "grid_kg_per_kwh": 0.727,
+  "K_BENCH": [
+    12,
+    10,
+    8,
+    6,
+    4,
+    3,
+    2
+  ],
+  "ROUNDS": 3,
+  "dtype_gpu": "fp16",
+  "dtype_cpu": "fp32",
+  "date": "2026-10-29 13:37",
+  "gpu_idle_power_w": 9.467
+}

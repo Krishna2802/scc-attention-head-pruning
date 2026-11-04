@@ -1,0 +1,84 @@
+{
+  "model": "bert-base-uncased",
+  "task": "sst2",
+  "seed": 0,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 128,
+  "warmup": 0.1,
+  "gpu": "Tesla T4",
+  "train_minutes": 10.429808926582336,
+  "train_sub": {
+    "acc": 0.9876,
+    "loss": 0.040423836559057236
+  },
+  "dev": {
+    "acc": 0.9524940617577197,
+    "loss": 0.19047264754772186
+  },
+  "val": {
+    "acc": 0.9208715596330275,
+    "loss": 0.28949522972106934
+  },
+  "gen_gap_loss": 0.2490713931620121,
+  "gen_gap_acc": 0.06672844036697256
+}
+
+
+
+{
+  "model": "bert-base-uncased",
+  "task": "sst2",
+  "seed": 1,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 128,
+  "warmup": 0.1,
+  "gpu": "Tesla T4",
+  "train_minutes": 10.364048103491465,
+  "train_sub": {
+    "acc": 0.9876,
+    "loss": 0.040360670536756516
+  },
+  "dev": {
+    "acc": 0.9521971496437055,
+    "loss": 0.1898852288722992
+  },
+  "val": {
+    "acc": 0.9288990825688074,
+    "loss": 0.26351603865623474
+  },
+  "gen_gap_loss": 0.22315536811947823,
+  "gen_gap_acc": 0.058700917431192656
+}
+
+
+{
+  "model": "bert-base-uncased",
+  "task": "sst2",
+  "seed": 2,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 128,
+  "warmup": 0.1,
+  "gpu": "Tesla T4",
+  "train_minutes": 10.368465352058411,
+  "train_sub": {
+    "acc": 0.9858,
+    "loss": 0.04274449869990349
+  },
+  "dev": {
+    "acc": 0.9548693586698337,
+    "loss": 0.17582574486732483
+  },
+  "val": {
+    "acc": 0.9208715596330275,
+    "loss": 0.2855375409126282
+  },
+  "gen_gap_loss": 0.24279304221272469,
+  "gen_gap_acc": 0.06492844036697254
+}
+
